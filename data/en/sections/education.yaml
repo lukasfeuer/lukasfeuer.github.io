@@ -10,81 +10,38 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Quantum Cryptography
-  icon: fa-microscope
-  timeframe: 2016-2020
-  institution:
-    name: ABC University of Technology
-    url: "#"
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.6
-    outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
-- name: B.Sc. in Computer Science & Engineering
+- name: M.Sc. in Psychology
   icon: fa-graduation-cap
-  timeframe: 2012-2016
+  timeframe: 2018-2021
   institution:
-    name: University of XYZ
-    url: "#"
+    name: University of Hildesheim
+    url: "http://uni-hildesheim.de"
+  grade:
+    scale: Grade
+    achieved: 1.3
+    outOf: 1-6
+- name: B.Sc. in Psychology
+  icon: fa-graduation-cap
+  timeframe: 2016-2018
+  institution:
+    name: MSH Medical School Hamburg
+    url: "http://www.medicalschool-hamburg.de"
   grade: #(optional)
-    scale: CGPA
-    achieved: 3.5
-    outOf: 4
-  takenCourses: #(optional)
-    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: true
-    collapseAfter: 3
-    courses:
-    - name: Data Structures and Algorithm
-      achieved: 3.75
-      outOf: 4
-    - name: Network Security
-      achieved: 3.80
-      outOf: 4
-    - name: Operating System
-      achieved: 3.5
-      outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
-      outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Higher Secondary School Certificate
+    scale: Grade
+    achieved: 1.1
+    outOf: 1-6
+- name: B.Sc. Applied Psychology (Transfer to MSH Medical School in the second year of study)
   icon: fa-university
-  timeframe: 2010-2012
+  timeframe: 2014-2016
   institution:
-    name: MST College of Science
-    url: "#"
-  grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 5
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Secondary School Certificate
+    name: Fresenius - Univerity of Applied Sciences
+    url: "https://www.hs-fresenius.com"
+- name: High-School (Abitur)
   icon: fa-school
-  timeframe: 2005-2010
+  timeframe: 2011-2014
   institution:
-    name: JK School of Science
+    name: Hölty Gynmasium Wunstorf
   grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
+    scale: Grade
+    achieved: 1.7
+    outOf: 1-6
