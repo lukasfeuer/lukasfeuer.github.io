@@ -1,7 +1,7 @@
 baseURL: https://hugo-toha.github.io
 
 languageCode: en-us
-title: "John's Blog"
+title: "Lukas Feuer"
 theme: "toha"
 
 # Manage languages
@@ -41,14 +41,14 @@ enableEmoji: true
 # Site parameters
 params:
   # Background image of the landing page
-  background: /images/site/background.jpg
+  background: /images/site/oil.jpg
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+    main: /images/site/logo_w.png
+    inverted: /images/site/logo_w.png
+    favicon: /images/site/logo_w.png
 
   # GitHub repo of your site
   gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
@@ -150,13 +150,13 @@ params:
     #     backgroundColor: '#248aaa'
 
   # specify whether you want to show Table of Contents in reading page
-  enableTOC: true
+  enableTOC: false
 
   # Show tags under the post title
   enableTags: true
 
   # Specify whether to show flag in the language selector. Default is true.
-  showFlags: true
+  showFlags: false
 
   # If you want to use different country flag for a language, specify them here.
   # flagOverwrites:
@@ -181,12 +181,6 @@ params:
     credentials:
       enable: true
 
-    # Show/hide newsletter section in the footer. Default is "true".
-    # Currently, it supports "mailchimp".
-    newsletter:
-      enable: true
-      provider: mailchimp
-      mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
 
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
