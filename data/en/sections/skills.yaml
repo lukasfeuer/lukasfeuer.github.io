@@ -3,7 +3,7 @@ section:
   name: Skills
   id: skills
   enable: true
-  weight: 2
+  weight: 3
   showOnNavbar: true
   hideTitle: false
 
@@ -37,6 +37,6 @@ skills:
 
 - name: Selenium (Python)
   logo: "/images/sections/skills/selenium.png"
-  summary: "https://julialang.org/assets/infra/logo.svg"
+  summary: "Development of python scripts for automation of daily processes and recurring tasks."
   url: "https://julialang.org"
 
