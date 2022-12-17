@@ -10,16 +10,32 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: R Data Analytics
-  logo: "/images/sections/skills/Rlogo.png"
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+- name: R
+  logo: "/images/sections/skills/Rlogo2.png"
+  summary: "Main language for professional development and analytics. Capable of writing clear, modular, testable and maintainable code."
   url: "https://www.r-project.org"
 
-- name: Julia Programming
-  logo: "/images/sections/skills/Julialogo.svg"
+- name: "PL/SQL"
+  logo: "/images/sections/skills/sql.png"
+  summary: "Experienced with building complex queries for relational (Oracle) data bases."
+  url: "https://www.oracle.com/database/technologies/appdev/plsql.html"
+
+- name: Power BI
+  logo: "/images/sections/skills/pbi.png"
+  summary: "Design and maintain most reports and dashboards of my department. Providing of clear, comprehensive and interactive summary of the data."
+  url: "https://powerbi.microsoft.com/"
+
+- name: Power Automate
+  logo: "/images/sections/skills/automate.png"
+  summary: "Using to develop automated cloud-based processes e.g. to handle Emails and improve project management"
+  url: "https://powerautomate.microsoft.com/"
+
+- name: Selenium (Python)
+  logo: "/images/sections/skills/selenium.png"
   summary: "https://julialang.org/assets/infra/logo.svg"
   url: "https://julialang.org"
 
 - name: Git
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  logo: "/images/sections/skills/git.png"
+  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with Bitbucket."
   url: "https://git-scm.com/"

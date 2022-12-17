@@ -30,7 +30,7 @@ degrees:
     scale: Grade
     achieved: 1.1
     outOf: 1-6
-- name: B.Sc. Applied Psychology (Transfer to MSH Medical School in the second year of study)
+- name: Applied Psychology (Transfer to MSH Medical School in the second year of study)
   icon: fa-university
   timeframe: 2014-2016
   institution:
@@ -41,6 +41,7 @@ degrees:
   timeframe: 2011-2014
   institution:
     name: Hölty Gynmasium Wunstorf
+    url: "https://www.hoelty.de"
   grade: #(optional)
     scale: Grade
     achieved: 1.7
