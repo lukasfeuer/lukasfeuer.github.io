@@ -20,6 +20,11 @@ skills:
   summary: "Experienced with building complex queries for relational (Oracle) data bases."
   url: "https://www.oracle.com/database/technologies/appdev/plsql.html"
 
+- name: Git
+  logo: "/images/sections/skills/git.png"
+  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with Bitbucket."
+  url: "https://git-scm.com/"
+
 - name: Power BI
   logo: "/images/sections/skills/pbi.png"
   summary: "Design and maintain most reports and dashboards of my department. Providing of clear, comprehensive and interactive summary of the data."
@@ -35,7 +40,3 @@ skills:
   summary: "https://julialang.org/assets/infra/logo.svg"
   url: "https://julialang.org"
 
-- name: Git
-  logo: "/images/sections/skills/git.png"
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with Bitbucket."
-  url: "https://git-scm.com/"
