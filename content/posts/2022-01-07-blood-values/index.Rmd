@@ -1,0 +1,69 @@
+---
+title: Making a simple adaptive Flexdashboard
+author: Lukas Feuer
+date: '2022-01-07'
+categories: ["R"]
+tags: ["flexdashboard", "R", "meta programming"]
+---
+
+
+This short post documents how some time ago I made a flexdashboard to easily monitor blood examination results over time and make them more comparable for the patient; for example as part of a patient empowerment initiative ([^1]Reichardt & Gastmeier, 2013). While the dashboard itself is nothing special I think it might be interesting to other data scientists how I realized the tabset feature, which automatically adjusts the number of tab-panels and plots to the number of variables in the data. 
+
+*** 
+
+```{css, echo=FALSE}
+
+p {
+  text-align: justify;
+}
+
+.content .flexdashboard {
+  height: 80vh;
+  width: 780px;
+  border-style:none;
+  margin: 0px 0vw 0px;
+  padding: 0px 0px;
+}
+
+```
+
+<iframe class="flexdashboard" src="blood_dash.html"> </iframe>
+
+&rarr; [View the full-screen flexdashboard](blood_dash.html)
+
+*** 
+You can find the code for the dashboard above at my [GitHub](https://github.com/lukasfeuer/flexdashboard_blood.git). A great advantage of this approach is that I didn't have to write the code for every tab separately (don't repeat yourself), which also would have made the application much less flexible in case the number of variables in the data changes. 
+
+As you can see below, for the main piece of work for the responsive tabset I was inspired by a post similar to that of [Danton Noriega](https://github.com/dantonnoriega) but unfortunately I can't find the post I originally build upon anymore. An important addition from my side however was `{r, results='asis', echo = FALSE}` inside of `a2 <- knitr::knit_expand([...])` instead of just `{r}` (see line 33 below). For me at least this was necessary for the tabset to render as intended in the specific configuration I put it in the UI. This took me some time to figure out which is one of the reasons I wrote this post; just to remind myself. 
+
+You can also see that I build a function to create the ggplots and directly called this function in the iteratively build code chunks. I think however, that the approach by Danton Noriega is more elegant and possibly faster. Looking back at my post now about one year later, I think I would do it the same way he did, if I had to rewrite the dashboard. Apart from that today I would make (and am) much more use of the tidyverse in general. 
+
+Another feature that I'd like to point out is the table (formattable) on the right. It shows the results of the latest blood examination entry. It also calculates the difference (Diff) to the entry before that and displays rising values with a green arrow and declining values with a red arrow.
+
+The code by Danton Noriega for the tabset:
+<script src="https://gist.github.com/dantonnoriega/61559f39c06df92cca1f594bc63bcb8f.js"></script>
+
+***
+
+# Annotations
+  <p>
+    <ul>
+      <li> The data presented in this dashboard is randomly generated </li> 
+      <li> If you take a look at the code you might notice that a lot of the transformations are still written in quite clumsy base R. I wrote the code for this dashboard some while back before I learned of the tidyverse and just rewrote some select parts for this post.</li> 
+      <li> I wrote the original version of this dashboard in German which is why there are still some German terms and expressions even after a quick revision for this post </li> 
+    </ul>
+  </p>
+
+***
+
+<details><summary><b>Technical note</b>: Incorporating a flexdashboard into blogdown</summary>
+  <p>
+  A few days ago I read a post by [Benjamin Chang Sorensen](https://www.benjaminsorensen.me/post/libib-dashboard/) describing how to add a flexdashboard to a blogdown page (as seen above). He described a problem with the display of the tabset which I also observed, when the dashboard is confined to the custom width of the content (`max-width: 700px`). If the display of the dashboard is allowed to occupy more space, the tabset is displayed perfectly. 
+
+Just as well as Benjamin Chang Sorensen describes it, I too had some problems referencing my flexdashboard in the beginning. The solution that worked for me was to create and render/knit the .Rmd document in the `/static/` folder, where I created a separate folder for the project. After rendering I copied the .html file directly into the `/content/post/<Making a simple adaptive flexdashboard>/` folder of the post. 
+
+`html <iframe class="flexdashboard" src="blood_dash.html"> </iframe>`
+  </p>
+</details>
+
+[^1]: Reichardt, C., & Gastmeier, P. (2013). Patienten-Empowerment. Radiopraxis, 6(04), 223-230.
