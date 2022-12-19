@@ -2,8 +2,13 @@
 title: Making a simple adaptive Flexdashboard
 author: Lukas Feuer
 date: '2022-01-07'
+menu:
+  sidebar:
+    name: Adaptive Flexdashboard
+    identifier: blood_dash
+    weight: 100
 categories: ["R"]
-tags: ["flexdashboard", "R", "meta programming"]
+tags: ["R", "flexdashboard", "meta programming"]
 ---
 
 
@@ -29,7 +34,7 @@ p {
 
 <iframe class="flexdashboard" src="blood_dash.html"> </iframe>
 
-&rarr; [View the full-screen flexdashboard](blood_dash.html)
+&rarr; [View the full-screen flexdashboard (tabset gets not displayed on mobile)](blood_dash.html)
 
 *** 
 You can find the code for the dashboard above at my [GitHub](https://github.com/lukasfeuer/flexdashboard_blood.git). A great advantage of this approach is that I didn't have to write the code for every tab separately (don't repeat yourself), which also would have made the application much less flexible in case the number of variables in the data changes. 
@@ -58,7 +63,7 @@ The code by Danton Noriega for the tabset:
 
 <details><summary><b>Technical note</b>: Incorporating a flexdashboard into blogdown</summary>
   <p>
-  A few days ago I read a post by [Benjamin Chang Sorensen](https://www.benjaminsorensen.me/post/libib-dashboard/) describing how to add a flexdashboard to a blogdown page (as seen above). He described a problem with the display of the tabset which I also observed, when the dashboard is confined to the custom width of the content (`max-width: 700px`). If the display of the dashboard is allowed to occupy more space, the tabset is displayed perfectly. 
+  A few days ago I read a post by [Benjamin Chang Sorensen](https://www.benjaminsorensen.me/post/libib-dashboard) describing how to add a flexdashboard to a blogdown page (as seen above). He described a problem with the display of the tabset which I also observed, when the dashboard is confined to the custom width of the content (`max-width: 700px`). If the display of the dashboard is allowed to occupy more space, the tabset is displayed perfectly. 
 
 Just as well as Benjamin Chang Sorensen describes it, I too had some problems referencing my flexdashboard in the beginning. The solution that worked for me was to create and render/knit the .Rmd document in the `/static/` folder, where I created a separate folder for the project. After rendering I copied the .html file directly into the `/content/post/<Making a simple adaptive flexdashboard>/` folder of the post. 
 
