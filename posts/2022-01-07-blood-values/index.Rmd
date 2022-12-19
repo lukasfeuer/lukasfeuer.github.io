@@ -6,7 +6,6 @@ categories: ["R"]
 tags: ["flexdashboard", "R", "meta programming"]
 ---
 
-
 This short post documents how some time ago I made a flexdashboard to easily monitor blood examination results over time and make them more comparable for the patient; for example as part of a patient empowerment initiative ([^1]Reichardt & Gastmeier, 2013). While the dashboard itself is nothing special I think it might be interesting to other data scientists how I realized the tabset feature, which automatically adjusts the number of tab-panels and plots to the number of variables in the data. 
 
 *** 
@@ -29,7 +28,7 @@ p {
 
 <iframe class="flexdashboard" src="blood_dash.html"> </iframe>
 
-&rarr; [View the full-screen flexdashboard](blood_dash.html)
+&rarr; [View the full-screen flexdashboard (tabset gets not displayed on mobile)](blood_dash.html)
 
 *** 
 You can find the code for the dashboard above at my [GitHub](https://github.com/lukasfeuer/flexdashboard_blood.git). A great advantage of this approach is that I didn't have to write the code for every tab separately (don't repeat yourself), which also would have made the application much less flexible in case the number of variables in the data changes. 
