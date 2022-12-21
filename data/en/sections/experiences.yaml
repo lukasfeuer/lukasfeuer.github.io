@@ -16,7 +16,7 @@ experiences:
     url: "http://vergoelst.de"
     location: Hannover
     # company overview
-    overview: Founded in 1926, Vergölst is a subsidiary of Continental AG. With more than 450 branches nationwide Vergölst positions itself as a quality-oriented and experienced partner for tire and car services.
+    overview: "Founded in 1926, Vergölst is a subsidiary of Continental AG. With more than 450 branches nationwide Vergölst positions itself as a quality-oriented and experienced partner for tire and car services."
   positions:
   - designation: "Team Lead - CRM, Data & Pricing"
     start: Jan 2023
@@ -24,25 +24,25 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Corrdination and project management
-    - Alignment of team activities & capacities with strategic goals of department
-    - Modernization & Automation of (data) processes
-    - [+ previous responsibilities]
+    - "Corrdination and project management"
+    - "Alignment of team activities & capacities with strategic goals of department"
+    - "Modernization & Automation of (data) processes"
+    - "[+ previous responsibilities]"
   - designation: "CRM-Manager & Data Analyst"
     start: Jun 2022
     end: Dec 2022
     responsibilities:
-    - Responsible for CRM and marketing analytics in the DACH region (e.g. Vergöst & BestDrive)
+    - "Responsible for CRM and marketing analytics in the DACH region (e.g. Vergöst & BestDrive)"
     - Analysis of customer data quaitly and development of methods for refinement
     - Selection of audiences for marketing activities
     - Measurement of marketing campaign success
     - Development of Power BI reports
 
 - company:
-    name: Omicom Media Group Germany (OMG)
+    name: "Omicom Media Group Germany (OMG)"
     url: "https://omnicommediagroup.com"
     location: Hamburg
-    overview: OMG is one of the world’s largest media agency networks. OMG applies evidence and data-driven insights, combining empathy and inclusion, to drive performance and growth. I worked for the agencies annalect and bynd consulting with a focus on Media-Mix-Modeling.
+    overview: "OMG is one of the world’s largest media agency networks. OMG applies evidence and data-driven insights, combining empathy and inclusion, to drive performance and growth. I worked for the agencies annalect and bynd consulting with a focus on Media-Mix-Modeling."
   positions:
   - designation: Junior Consultant (bynd GmbH)
     start: May 2021
@@ -51,10 +51,10 @@ experiences:
     - Collection and processing of complex, heterogeneous data sets
     - Statistical analysis of retrodictive effects and computation of predictive models
     - Development of apps and dashboards with R Shiny
-    - Reporting with R-Markdown
+    - "Reporting with R-Markdown"
     - Automation of analysis processes along the entire value chain
     - Communication of recommendations in direct exchange with customers
-  - designation: Working Student (annalect)
+  - designation: "Working Student (annalect)"
     start: Aug 2016
     end: Apr 2017
     responsibilities:
@@ -65,13 +65,13 @@ experiences:
     name: Continental
     url: "https://www.continental.com"
     location: Hannover
-    overview: Continental AG develops technologies and services for sustainable and connected mobility of people and their goods. Founded in 1871, the technology company offers solutions for vehicles, machines, traffic and transportation.
+    overview: "Continental AG develops technologies and services for sustainable and connected mobility of people and their goods. Founded in 1871, the technology company offers solutions for vehicles, machines, traffic and transportation."
   positions:
   - designation: "Scholarship (Recruiting Center Germany / Special Operations)"
     start: Oct 2020
     end: Mar 2021
     responsibilities:
-    - Earned a scholarship for the execution of a self-initiated project
+    - "Earned a scholarship for the execution of a self-initiated project"
     - Management of a project for the development, implementation and evaluation of a instrument for measuring applicant reactions
     - Extensive statistical analysis in R and preparation of a master's thesis
   - designation: "Working Student (TMOD / Executives Diagnostics)"
@@ -92,7 +92,7 @@ experiences:
     - Development of personnel selection tools
 
 - company:
-    name: University Medical Center Hamburg-Eppendorf (UKE)
+    name: "University Medical Center Hamburg-Eppendorf (UKE)"
     url: "https://www.uke.de/english/index.html"
     location: Hamburg
     overview: UKE is the teaching hospital of the University of Hamburg and the largest hospital in Hamburg.
@@ -109,6 +109,6 @@ experiences:
     start: Apr 2017
     end: Sep 2017
     responsibilities:
-    - Internship (20 weeks) at the institute and the polyclinic for psychosomatic medicine and psychotherapy
+    - "Internship (20 weeks) at the institute and the polyclinic for psychosomatic medicine and psychotherapy"
     - Qualitative analyses
     - Support in organizing and conducting an RCT study
