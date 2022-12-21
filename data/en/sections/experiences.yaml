@@ -10,12 +10,13 @@ section:
 
 # Your experiences
 experiences:
+
 - company:
-    name: Vergölst GmbH
+    name: Vergölst
     url: "http://vergoelst.de"
     location: Hannover
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: Founded in 1926, Vergölst is a subsidiary of Continental AG. With more than 450 branches nationwide Vergölst positions itself as a quality-oriented and experienced partner for tire and car services.
   positions:
   - designation: "Team Lead - CRM, Data & Pricing"
     start: Jan 2023
@@ -23,40 +24,91 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Additional administrative and coordinating tasks
-
-  - designation: CRM-Manager & Data Analyst
+    - Corrdination and project management
+    - Alignment of team activities & capacities with strategic goals of department
+    - Modernization & Automation of (data) processes
+    - [+ previous responsibilities]
+  - designation: "CRM-Manager & Data Analyst"
     start: Jun 2022
     end: Dec 2022
     responsibilities:
-    - Analysis of customer data
+    - Responsible for CRM and marketing analytics in the DACH region (e.g. Vergöst & BestDrive)
+    - Analysis of customer data quaitly and development of methods for refinement
+    - Selection of audiences for marketing activities
     - Measurement of marketing campaign success
-    - Selection and quality improvement of company data
+    - Development of Power BI reports
 
 - company:
-    name: bynd GmbH (Omicom Media Group Germany)
-    url: "https://bynd.consulting"
+    name: Omicom Media Group Germany (OMG)
+    url: "https://omnicommediagroup.com"
     location: Hamburg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    overview: OMG is one of the world’s largest media agency networks. OMG applies evidence and data-driven insights, combining empathy and inclusion, to drive performance and growth. I worked for the agencies annalect and bynd consulting with a focus on Media-Mix-Modeling.
   positions:
-  - designation: Junior Consultant
+  - designation: Junior Consultant (bynd GmbH)
     start: May 2021
     end: May 2022
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Collection and processing of complex, heterogeneous data sets
+    - Statistical analysis of retrodictive effects and computation of predictive models
+    - Development of apps and dashboards with R Shiny
+    - Reporting with R-Markdown
+    - Automation of analysis processes along the entire value chain
+    - Communication of recommendations in direct exchange with customers
+  - designation: Working Student (annalect)
+    start: Aug 2016
+    end: Apr 2017
+    responsibilities:
+    - Statistical modeling and time series analysis of marketing data in Eviews and Excel
+    - Customization of statistical models and presentation in PowerPoint
 
 - company:
-    name: Continental AG
+    name: Continental
     url: "https://www.continental.com"
     location: Hannover
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    overview: Continental AG develops technologies and services for sustainable and connected mobility of people and their goods. Founded in 1871, the technology company offers solutions for vehicles, machines, traffic and transportation.
   positions:
-  - designation: Scholarship Holder / Working Student
-    start: Feb 2019
-    end: Apr 2021
+  - designation: "Scholarship (Recruiting Center Germany / Special Operations)"
+    start: Oct 2020
+    end: Mar 2021
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Earned a scholarship for the execution of a self-initiated project
+    - Management of a project for the development, implementation and evaluation of a instrument for measuring applicant reactions
+    - Extensive statistical analysis in R and preparation of a master's thesis
+  - designation: "Working Student (TMOD / Executives Diagnostics)"
+    start: Oct 2019
+    end: Sep 2020
+    responsibilities:
+    - Organization of the Development Center for Senior Executive Potentials
+    - Research and evaluation of personnel selection processes
+    - Statistical analysis of test data in R
+    - Build an intranet community for HR diagnostics topics
+  - designation: "Internship (Recruiting Center Germany / Special Operations)"
+    start: Feb 2019
+    end: Sep 2019
+    responsibilities:
+    - Planning and organization of trainings
+    - Statistical analysis of various HR data in R
+    - Scientific research on recruiting topics
+    - Development of personnel selection tools
+
+- company:
+    name: University Medical Center Hamburg-Eppendorf (UKE)
+    url: "https://www.uke.de/english/index.html"
+    location: Hamburg
+    overview: UKE is the teaching hospital of the University of Hamburg and the largest hospital in Hamburg.
+  positions:
+  - designation: "Working Student"
+    start: Oct 2017
+    end: Feb 2018
+    responsibilities:
+    - "Student assistant at the institute and the polyclinic for psychosomatic medicine and psychotherapy (research group 'rare diseases')"
+    - Scientific research
+    - Literature and data management
+    - Support of organizational processes
+  - designation: "Research Intern"
+    start: Apr 2017
+    end: Sep 2017
+    responsibilities:
+    - Internship (20 weeks) at the institute and the polyclinic for psychosomatic medicine and psychotherapy
+    - Qualitative analyses
+    - Support in organizing and conducting an RCT study

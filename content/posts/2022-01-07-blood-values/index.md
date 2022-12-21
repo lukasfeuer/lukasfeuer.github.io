@@ -34,14 +34,14 @@ p {
 
 <iframe class="flexdashboard" src="blood_dash.html"> </iframe>
 
-&rarr; [View the full-screen flexdashboard (tabset gets not displayed on mobile)](blood_dash.html)
+&rarr; [View the full-screen flexdashboard (tabset is not displayed on mobile)](blood_dash.html)
 
 *** 
 You can find the code for the dashboard above at my [GitHub](https://github.com/lukasfeuer/flexdashboard_blood.git). A great advantage of this approach is that I didn't have to write the code for every tab separately (don't repeat yourself), which also would have made the application much less flexible in case the number of variables in the data changes. 
 
-As you can see below, for the main piece of work for the responsive tabset I was inspired by a post similar to that of [Danton Noriega](https://github.com/dantonnoriega) but unfortunately I can't find the post I originally build upon anymore. An important addition from my side however was `{r, results='asis', echo = FALSE}` inside of `a2 <- knitr::knit_expand([...])` instead of just `{r}` (see line 33 below). For me at least this was necessary for the tabset to render as intended in the specific configuration I put it in the UI. This took me some time to figure out which is one of the reasons I wrote this post; just to remind myself. 
+As you can see below, for the main piece of work for the responsive tabset I was inspired by a post similar to that of [Danton Noriega](https://github.com/dantonnoriega) but unfortunately I can't find the post I originally build upon anymore. An important addition from my side however was `{r, results='asis', echo = FALSE}` inside of `a2 <- knitr::knit_expand([...])` instead of just `{r}` (see line 33 below). For me at least this was necessary for the tabset to render as intended in the specific configuration I put it in the UI. This took me some time to figure out which is one of the reasons I wrote this post; as a reminder to myself. 
 
-You can also see that I build a function to create the ggplots and directly called this function in the iteratively build code chunks. I think however, that the approach by Danton Noriega is more elegant and possibly faster. Looking back at my post now about one year later, I think I would do it the same way he did, if I had to rewrite the dashboard. Apart from that today I would make (and am) much more use of the tidyverse in general. 
+You can also see that I build a function to create the ggplots and directly called this function in the iteratively build code chunks. I think however, that the approach by Danton Noriega is more elegant and possibly faster. Looking back at my post now about one year later, I think I would do it the same way he did if I had to rewrite the dashboard. Apart from that today I would make much more use of the tidyverse in general. 
 
 Another feature that I'd like to point out is the table (formattable) on the right. It shows the results of the latest blood examination entry. It also calculates the difference (Diff) to the entry before that and displays rising values with a green arrow and declining values with a red arrow.
 
@@ -62,8 +62,7 @@ The code by Danton Noriega for the tabset:
 ***
 
 <details><summary><b>Technical note</b>: Incorporating a flexdashboard into blogdown</summary>
-  <p>
-  A few days ago I read a post by [Benjamin Chang Sorensen](https://www.benjaminsorensen.me/post/libib-dashboard) describing how to add a flexdashboard to a blogdown page (as seen above). He described a problem with the display of the tabset which I also observed, when the dashboard is confined to the custom width of the content (`max-width: 700px`). If the display of the dashboard is allowed to occupy more space, the tabset is displayed perfectly. 
+  <p> A few days ago I read a post by [Benjamin Chang Sorensen](https://www.benjaminsorensen.me/post/libib-dashboard) describing how to add a flexdashboard to a blogdown page (as seen above). He described a problem with the display of the tabset which I also observed, when the dashboard is confined to the custom width of the content (`max-width: 700px`). If the display of the dashboard is allowed to occupy more space, the tabset is displayed perfectly. 
 
 Just as well as Benjamin Chang Sorensen describes it, I too had some problems referencing my flexdashboard in the beginning. The solution that worked for me was to create and render/knit the .Rmd document in the `/static/` folder, where I created a separate folder for the project. After rendering I copied the .html file directly into the `/content/post/<Making a simple adaptive flexdashboard>/` folder of the post. 
 
