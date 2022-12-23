@@ -17,10 +17,10 @@ experiences:
     location: Hannover
     # company overview
     overview: >
-      "Founded in 1926, Vergölst is a subsidiary of Continental AG.
+      Founded in 1926, Vergölst is a subsidiary of Continental AG.
       With more than 450 branches nationwide Vergölst positions
       itself as a quality-oriented and experienced partner
-      for tire and car services."
+      for tire and car services.
   positions:
   - designation: "Team Lead - CRM, Data & Pricing"
     start: Jan 2023
@@ -46,7 +46,12 @@ experiences:
     name: "Omicom Media Group Germany (OMG)"
     url: "https://omnicommediagroup.com"
     location: Hamburg
-    overview: "OMG is one of the world’s largest media agency networks. OMG applies evidence and data-driven insights, combining empathy and inclusion, to drive performance and growth. I worked for the agencies annalect and bynd consulting with a focus on Media-Mix-Modeling."
+    overview: >
+      OMG is one of the world’s largest media agency networks.
+      OMG applies evidence and data-driven insights, combining
+      empathy and inclusion, to drive performance and growth.
+      I worked for the agencies annalect and bynd consulting
+      with a focus on Media-Mix-Modeling.
   positions:
   - designation: Junior Consultant (bynd GmbH)
     start: May 2021
@@ -69,7 +74,11 @@ experiences:
     name: Continental
     url: "https://www.continental.com"
     location: Hannover
-    overview: "Continental AG develops technologies and services for sustainable and connected mobility of people and their goods. Founded in 1871, the technology company offers solutions for vehicles, machines, traffic and transportation."
+    overview: >
+      Continental AG develops technologies and services for sustainable
+      and connected mobility of people and their goods. Founded in 1871,
+      the technology company offers solutions for vehicles, machines,
+      traffic and transportation.
   positions:
   - designation: "Scholarship (Recruiting Center Germany / Special Operations)"
     start: Oct 2020
@@ -99,7 +108,9 @@ experiences:
     name: "University Medical Center Hamburg-Eppendorf (UKE)"
     url: "https://www.uke.de/english/index.html"
     location: Hamburg
-    overview: UKE is the teaching hospital of the University of Hamburg and the largest hospital in Hamburg.
+    overview: >
+      UKE is the teaching hospital of the University of Hamburg
+      and the largest hospital in Hamburg.
   positions:
   - designation: "Working Student"
     start: Oct 2017
