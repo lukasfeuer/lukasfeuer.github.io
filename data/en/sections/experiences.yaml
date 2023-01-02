@@ -28,15 +28,15 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - "Corrdination and project management"
+    - "Coordination and project management"
     - "Alignment of team activities & capacities with strategic goals of department"
-    - "Modernization & Automation of (data) processes"
+    - "Modernization & Automation of (data) flows and processes"
     - "(+ previous responsibilities)"
   - designation: "CRM-Manager & Data Analyst"
     start: Jun 2022
     end: Jan 2023
     responsibilities:
-    - "Responsible for CRM and marketing analytics in the DACH region (e.g. Vergöst & BestDrive)"
+    - "Responsible for CRM and marketing analytics for the DACH countries (e.g. Vergöst & BestDrive)"
     - Analysis of customer data quality and development of methods for refinement
     - Selection of audiences for marketing activities
     - Measurement of marketing campaign success
@@ -48,10 +48,9 @@ experiences:
     location: Hamburg
     overview: >
       OMG is one of the world’s largest media agency networks.
-      OMG applies evidence and data-driven insights, combining
-      empathy and inclusion, to drive performance and growth.
-      I worked for the agencies annalect and bynd consulting
-      with a focus on Media-Mix-Modeling.
+      The company applies evidence and data-driven insights to drive
+      performance and growth. I worked for the agencies annalect
+      and bynd consulting with a focus on Media-Mix-Modeling.
   positions:
   - designation: Junior Consultant (bynd GmbH)
     start: May 2021
