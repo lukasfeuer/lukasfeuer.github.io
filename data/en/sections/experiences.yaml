@@ -23,7 +23,7 @@ experiences:
       for tire and car services.
   positions:
   - designation: "Team Lead - CRM, Data & Pricing"
-    start: Jan 2023
+    start: Feb 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
@@ -31,10 +31,10 @@ experiences:
     - "Corrdination and project management"
     - "Alignment of team activities & capacities with strategic goals of department"
     - "Modernization & Automation of (data) processes"
-    - "+ previous responsibilities"
+    - "(+ previous responsibilities)"
   - designation: "CRM-Manager & Data Analyst"
     start: Jun 2022
-    end: Dec 2022
+    end: Jan 2023
     responsibilities:
     - "Responsible for CRM and marketing analytics in the DACH region (e.g. Vergöst & BestDrive)"
     - Analysis of customer data quality and development of methods for refinement
