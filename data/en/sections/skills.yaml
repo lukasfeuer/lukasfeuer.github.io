@@ -12,31 +12,39 @@ section:
 skills:
 - name: R
   logo: "/images/sections/skills/Rlogo2.png"
-  summary: "Main language for professional development and analytics. Capable of writing clear, modular, testable and maintainable code."
+  summary: >
+    "My main language for professional development and analytics. I write clear,
+    modular, testable and maintainable code. For most applications, I use the
+    tidyverse packages and code style."
   url: "https://www.r-project.org"
 
 - name: "PL/SQL"
   logo: "/images/sections/skills/sql.png"
-  summary: "Experienced with building complex queries for relational (Oracle) data bases."
+  summary: "I am experienced with building complex SQL queries for relational (Oracle) data bases."
   url: "https://www.oracle.com/database/technologies/appdev/plsql.html"
 
 - name: Git
   logo: "/images/sections/skills/git.png"
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with Bitbucket."
+  summary: "Experienced with git-based development. Primarily I use Github but I
+  also have experience working with Bitbucket."
   url: "https://git-scm.com/"
 
 - name: Power BI
   logo: "/images/sections/skills/pbi.png"
-  summary: "Design and maintain most reports and dashboards of my department. Providing of clear, comprehensive and interactive summary of the data."
+  summary: "I design and maintain most reports and dashboards of my department.
+  Power BI enables me to effectively provide clear, comprehensive and interactive
+  summaries of my analyses."
   url: "https://powerbi.microsoft.com/"
 
 - name: Power Automate
   logo: "/images/sections/skills/automate.png"
-  summary: "Using to develop automated cloud-based processes e.g. to handle Emails and improve project management"
+  summary: "Used Power Automatce to develop automated cloud-based processes e.g.
+  to handle Emails and improve project management with automated task generation"
   url: "https://powerautomate.microsoft.com/"
 
 - name: Selenium (Python)
   logo: "/images/sections/skills/selenium.png"
-  summary: "Development of python scripts for automation of daily processes and recurring tasks."
-  url: "https://julialang.org"
+  summary: "Development of python scripts for automation of daily processes and
+  recurring tasks in the browser."
+  url: "https://www.selenium.dev"
 

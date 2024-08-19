@@ -2,7 +2,7 @@
 # some information about you
 name: "Lukas Feuer"
 nickname: "Lukas"
-image: "images/author/lukas_avatar.png"
+image: "images/author/lukas2_avatar.png"
 
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I am"
@@ -19,7 +19,13 @@ summary:
 - I am a Psychologist
 - I work with R
 - '#useR!'
-- I love data visualization
+- I love the tidyverse
 - I love to learn new things
 - Why are you still watching the front page?
 - Scroll down!
+- Okay, well then here is some wisdom:
+- When you are dead,
+- You don't know that you are dead
+- It's difficult only for others
+- It's the same when you are stupid
+- "'Whitout data, all you have is an opinion'"

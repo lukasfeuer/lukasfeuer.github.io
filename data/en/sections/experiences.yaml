@@ -12,7 +12,7 @@ section:
 experiences:
 
 - company:
-    name: Vergölst
+    name: ContiTrade (Vergölst/BestDrive by Continental)
     url: "http://vergoelst.de"
     location: Hannover
     # company overview
@@ -20,9 +20,10 @@ experiences:
       Founded in 1926, Vergölst is a subsidiary of Continental AG.
       With more than 450 branches nationwide Vergölst positions
       itself as a quality-oriented and experienced partner
-      for tire and car services.
+      for tire and car services. Just as Vergölst, BestDrive by Continental
+      is a leading, international expert in automotive maintenance and full car servicing.
   positions:
-  - designation: "Team Lead - CRM, Data & Pricing D/A/CH"
+  - designation: "Team Lead - CRM, Data & Pricing DACH"
     start: Feb 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
@@ -33,11 +34,11 @@ experiences:
     - "Unifying and coordination of pricing processes in the DACH region"
     - "Modernization & Automation of (data) flows and processes"
     - "(+ previous responsibilities)"
-  - designation: "CRM-Manager & Data Analyst ContiTrade D/A/CH @Vergölst"
+  - designation: "CRM-Manager & Data Analyst ContiTrade DACH"
     start: Jun 2022
     end: Jan 2023
     responsibilities:
-    - "Responsible for CRM and marketing analytics for the DACH countries (e.g. Vergöst & BestDrive)"
+    - "Responsible for CRM and marketing analytics for the DACH countries"
     - Analysis of customer data quality and development of methods for refinement
     - Selection of audiences for marketing activities
     - Measurement of marketing campaign success

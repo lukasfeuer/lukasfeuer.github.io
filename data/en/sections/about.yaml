@@ -11,11 +11,16 @@ section:
 designation: Data Analyst
 # your company information
 company:
-  name: Vergölst
+  name: "ContiTrade (Vergöst/BestDrive)"
   url: "https://www.vergoelst.de"
 
 # a summary about you
-summary: 'Hi, my name is Lukas Feuer. I am a CRM-Manager and Data Analyst for Vergölst based in Hannover (Germany). I studied Psychology (M.Sc.) in Hamburg and Hildesheim with a focus on statistics and research. I primarily work with [R](http://r-project.org) but I am also very passionate about learning the [Julia](http://julialang.org) programming language. To communicate my results I create Power BI or Quarto/RMarkdown reports that help our stakeholders in their decision making.'
+summary: >
+  'Hi, my name is Lukas Feuer. I am primarily a Data Analyst based in Hannover (Germany).
+  I studied Psychology (M.Sc.) in Hamburg and
+  Hildesheim with an additional focus on statistics and research. I primarily work with
+  [R](http://r-project.org) but I am also very passionate about learning new technologies like the
+  [Julia](http://julialang.org) programming language.
 
 # your social links
 # give as many as you want. use font-awesome for the icons.

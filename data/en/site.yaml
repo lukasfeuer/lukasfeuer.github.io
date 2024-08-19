@@ -1,5 +1,5 @@
 # Copyright Notice
-copyright: © 2022 Copyright.
+copyright: © 2024 Copyright.
 
 # Meta description for your site.  This will help the search engines to find your site.
 description: Portfolio and personal blog of Lukas Feuer.
@@ -10,5 +10,5 @@ openGraph:
   title: Lukas Feuer
   type: website
   description: Portfolio and personal blog of Lukas Feuer.
-  image: images/author/lukas_avatar.png
+  image: images/author/lukas2_avatar.png
   url: https://hugo-toha.github.io
