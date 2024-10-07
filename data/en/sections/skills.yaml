@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Skills
+  name: Technical Skills
   id: skills
   enable: true
   weight: 3
@@ -13,14 +13,15 @@ skills:
 - name: R
   logo: "/images/sections/skills/Rlogo2.png"
   summary: >
-    "My main language for professional development and analytics. I write clear,
+    "My main language for professional development and data analytics. I write clear,
     modular, testable and maintainable code. For most applications, I use the
     tidyverse packages and code style."
   url: "https://www.r-project.org"
 
 - name: "PL/SQL"
   logo: "/images/sections/skills/sql.png"
-  summary: "I am experienced with building complex SQL queries for relational (Oracle) data bases."
+  summary: "I am experienced with building complex SQL queries for relational
+  (Oracle) data bases."
   url: "https://www.oracle.com/database/technologies/appdev/plsql.html"
 
 - name: Git
@@ -33,8 +34,14 @@ skills:
   logo: "/images/sections/skills/pbi.png"
   summary: "I design and maintain most reports and dashboards of my department.
   Power BI enables me to effectively provide clear, comprehensive and interactive
-  summaries of my analyses."
+  summaries of my analyses in a Microsoft-centric business environment."
   url: "https://powerbi.microsoft.com/"
+
+- name: Markdown
+  logo: "/images/sections/skills/md.png"
+  summary: "I use Markdown for a variety of applications, e.g. personal notes in Obsidian,
+  Quarto reports or in the construction of this website."
+  url: "https://www.markdownguide.org"
 
 - name: Power Automate
   logo: "/images/sections/skills/automate.png"
@@ -42,9 +49,15 @@ skills:
   to handle Emails and improve project management with automated task generation"
   url: "https://powerautomate.microsoft.com/"
 
+- name: HTML & CSS
+  logo: "/images/sections/skills/html.png"
+  summary: "Most of my experience in using HTML is from web scraping and from
+  buliding and designing R-Shiny apps and dashboards."
+  url: "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"
+
 - name: Selenium (Python)
   logo: "/images/sections/skills/selenium.png"
-  summary: "Development of python scripts for automation of daily processes and
-  recurring tasks in the browser."
+  summary: "I use Selenium for the development of Python scripts for automation
+  of daily processes and recurring tasks in the browser."
   url: "https://www.selenium.dev"
 

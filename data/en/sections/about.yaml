@@ -11,15 +11,16 @@ section:
 designation: Data Analyst
 # your company information
 company:
-  name: "ContiTrade (Vergöst/BestDrive)"
+  name: "ContiTrade (Vergöst/BestDrive by Continental)"
   url: "https://www.vergoelst.de"
 
 # a summary about you
 summary: >
-  'Hi, my name is Lukas Feuer. I am primarily a Data Analyst based in Hannover (Germany).
-  I studied Psychology (M.Sc.) in Hamburg and
-  Hildesheim with an additional focus on statistics and research. I primarily work with
-  [R](http://r-project.org) but I am also very passionate about learning new technologies like the
+  Hi, my name is Lukas Feuer. I am a Data Analyst based in Hannover (Germany).
+  I studied Psychology (M.Sc.) in Hamburg and Hildesheim with an additional focus
+  on statistics and research. I primarily work with
+  [R](http://r-project.org) and the tidyverse but I am also very passionate
+  about learning new technologies like the
   [Julia](http://julialang.org) programming language.
 
 # your social links
